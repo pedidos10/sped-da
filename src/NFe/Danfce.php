@@ -60,7 +60,7 @@ class Danfce extends DaCommon
     protected $hBoxLinha = 6;
     protected $hLinha = 3;
     protected $aFontTit = ['font' => 'times', 'size' => 9, 'style' => 'B'];
-    protected $aFontTex = ['font' => 'times', 'size' => 8, 'style' => ''];
+    protected $aFontTex = ['font' => 'times', 'size' => 9, 'style' => ''];
     protected $via = "Via Consumidor";
     protected $offline_double = true;
     protected $canceled = false;

@@ -140,9 +140,9 @@ trait TraitBlocoIII
         if ($this->flagResume) {
             return 0;
         }
-        $fsize = 7;
+        $fsize = 8;
         if ($this->paperwidth < 70) {
-            $fsize = 5;
+            $fsize = 6;
         }
         $hfont = (imagefontheight($fsize)/72)*15;
         $aFont = ['font'=> $this->fontePadrao, 'size' => $fsize, 'style' => ''];
