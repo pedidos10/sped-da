@@ -59,7 +59,7 @@ trait TraitBlocoII
                 '',
                 true
             );
-            
+            /*
             $texto = "Pendente de autorização";
             $aFont = ['font'=> $this->fontePadrao, 'size' => 8, 'style' => 'I'];
             $this->pdf->textBox(
@@ -75,6 +75,7 @@ trait TraitBlocoII
                 '',
                 true
             );
+            */
         } else {
             $texto = "Documento Auxiliar da Nota Fiscal de Consumidor Eletronica\n"
                 . "Não permite aproveitamento de crédito de ICMS";
