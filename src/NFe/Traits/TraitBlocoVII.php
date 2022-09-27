@@ -49,7 +49,7 @@ trait TraitBlocoVII
         }
 
         if ($this->tpEmis == 9) {
-            $aFont = ['font'=> $this->fontePadrao, 'size' => (7-$subSize), 'style' => ''];
+            $aFont = ['font'=> $this->fontePadrao, 'size' => (8-$subSize), 'style' => ''];
             $y += 2*$yPlus;
             $y1 = $this->pdf->textBox(
                 $this->margem,
