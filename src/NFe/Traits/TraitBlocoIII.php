@@ -12,10 +12,10 @@ trait TraitBlocoIII
         if ($this->flagResume) {
             return $y;
         }
-        $matrix = [0.12, $this->descPercent, 0.08, 0.09, 0.156, 0.156];
+        $matrix = [0.14, 0.48, 0.08, 0.06, 0.126, 0.126];
         //$aFont = ['font'=> $this->fontePadrao, 'size' => 7, 'style' => ''];
         //$this->pdf->textBox($this->margem, $y, $this->wPrint, $this->bloco3H, '', $aFont, 'T', 'C', true, '', false);
-        $fsize = 7;
+        $fsize = 6;
         if ($this->paperwidth < 70) {
             $fsize = 5;
         }

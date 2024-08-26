@@ -166,7 +166,7 @@ trait TraitBlocoIV
             false
         );
         
-        $fsize = 10;
+        $fsize = 9;
         if ($this->paperwidth < 70) {
             $fsize = 8;
         }

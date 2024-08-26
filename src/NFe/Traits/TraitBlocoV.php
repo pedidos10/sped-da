@@ -31,7 +31,7 @@ trait TraitBlocoV
                 'valor' => $valor
             ];
         }
-        $aFont = ['font'=> $this->fontePadrao, 'size' => 8, 'style' => ''];
+        $aFont = ['font'=> $this->fontePadrao, 'size' => 7, 'style' => ''];
         $texto = "FORMA PAGAMENTO";
         $this->pdf->textBox($this->margem, $y, $this->wPrint, 4, $texto, $aFont, 'T', 'L', false, '', false);
         $texto = "VALOR PAGO R$";

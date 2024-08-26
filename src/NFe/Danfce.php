@@ -74,7 +74,7 @@ class Danfce extends DaCommon
     protected $bloco5H = 0.0; //formas de pagamento
     
     protected $bloco6H = 10.0; //informação para consulta
-    protected $bloco7H = 25.0; //informações do consumidor
+    protected $bloco7H = 17.0; //informações do consumidor
     protected $bloco8H = 50.0; //informações do consumidor
     protected $bloco9H = 4.0; //informações sobre tributos
     protected $bloco10H = 5.0; //informações do integrador

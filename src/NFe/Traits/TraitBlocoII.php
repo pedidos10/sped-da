@@ -14,7 +14,7 @@ trait TraitBlocoII
         //$this->pdf->textBox($this->margem, $y, $this->wPrint, $this->bloco2H, '', $aFont, 'T', 'C', true, '', false);
         if ($this->tpEmis == 9) {
             $texto = "Documento Auxiliar da Nota Fiscal de Consumidor Eletronica";
-            $aFont = ['font'=> $this->fontePadrao, 'size' => 7, 'style' => ''];
+            $aFont = ['font'=> $this->fontePadrao, 'size' => 6, 'style' => ''];
             $y1 = $this->pdf->textBox(
                 $this->margem,
                 $y,
@@ -29,7 +29,7 @@ trait TraitBlocoII
                 true
             );
             $texto = "Não permite aproveitamento de crédito de ICMS";
-            $aFont = ['font'=> $this->fontePadrao, 'size' => 7, 'style' => ''];
+            $aFont = ['font'=> $this->fontePadrao, 'size' => 6, 'style' => ''];
             $y1 += $this->pdf->textBox(
                 $this->margem,
                 $y+$y1,
@@ -45,7 +45,7 @@ trait TraitBlocoII
             );
             //contingencia offline
             $texto = "EMITIDA EM CONTINGÊNCIA";
-            $aFont = ['font'=> $this->fontePadrao, 'size' => 10, 'style' => 'B'];
+            $aFont = ['font'=> $this->fontePadrao, 'size' => 8, 'style' => 'B'];
             $y2 = $this->pdf->textBox(
                 $this->margem,
                 $y+$y1,
